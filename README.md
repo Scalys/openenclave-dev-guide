@@ -35,8 +35,10 @@ To ensure that OpenEnclave environment works properly it's version should corres
 2. download the latest available SD card image (img.gz) from Scalys binary releases [page](http://trustbox.scalys.com/pub/releases). For the development purposes it is recommended to select latest available devel image.
 **Note**: it is also possible to build this image from sources. For that refer BSP User Guide available at Scalys downloads [page](https://scalys.com/downloads).
 3. unpack and flash SD card image:
+```
 $ sudo gunzip trustbox-lsdk-2004-main-latest.img.gz
 $ sudo dd if=trustbox-lsdk-2004-main-latest.img of=<DEVICE_PATH>
+```
 4. insert flashed SD card into TrustBox and connect to it via serial interface
 5. right after power on of the TrustBox press any key during the countdown (in bootloader)
 6. run the following commands to update the firmware:
