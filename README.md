@@ -10,7 +10,7 @@ products:
 
 # TrustBox Open Enclave development
 
-This manual demonstrates how to set up and use Open Enclave development environment for Scalys [TrustBox Edge](https://scalys.com/trustbox-industrial). This development environment was prepared and tested on Ubuntu 18.04. For fast prototyping it also possible to use virtual machine available from Scalys OpenEnclave resources [page](https://scalys.com/downloads). It contains a clean Ubuntu 18.04 installation pre-configured with the Open Enclave development tooling.
+This manual demonstrates how to set up and use Open Enclave development environment for Scalys [TrustBox Edge](https://scalys.com/trustbox-industrial). This development environment was prepared and tested on Ubuntu 18.04. For fast prototyping it also possible to use virtual machine available from Scalys OpenEnclave resources [page](http://trustbox.scalys.com/pub/openenclave) (make sure that EFI is enabled in the virtual machine settings). It contains a clean Ubuntu 18.04 installation pre-configured with the Open Enclave development tooling.
 
 # TrustBox setup
 
